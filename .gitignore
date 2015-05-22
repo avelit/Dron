@@ -1,3 +1,11 @@
+*.project
+*.classpath
+*LICENSE*
+.idea/*
+target/*
+.settings/*
+*.class
+*.iml
 *.class
 
 # Mobile Tools for Java (J2ME)
