@@ -6,7 +6,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    AirplaneCharacteristics characteristics = new AirplaneCharacteristics(500.0,10.0,10.0,10.0);
+    AirplaneCharacteristics characteristics = new AirplaneCharacteristics(500.0,10.0,10.0,10.0);//TODO builder
     Airplane airplane = new Airplane("Dron",characteristics);
 
     List<WayPoint> wayPoints = new ArrayList<WayPoint>(){
